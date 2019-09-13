@@ -82,7 +82,7 @@ live_loop :solo do
   #sync :main
   
   use_synth :zawa
-  use_synth_defaults attack: 0.05, sustain: 0.15, release: 0.125
+  use_synth_defaults attack: 0.05, sustain: 0.15, release: 0.125, amp: 0.7
   
   phases = [
     [:D4, :Fs3, :B3, :Fs3],
